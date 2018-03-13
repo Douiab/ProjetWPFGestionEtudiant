@@ -27,7 +27,10 @@ namespace LoginWpf
 
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
         {
+            WindowPrincipale windows = new WindowPrincipale();
+            windows.Show();
 			this.Close();
+            
         }
     }
 }

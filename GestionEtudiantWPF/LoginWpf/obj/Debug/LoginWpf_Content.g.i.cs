@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressource/logo.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressource/ensas-pano.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("ressource/ensasafi.jpeg")]
 
 
