@@ -23,11 +23,24 @@ namespace LoginWpf
         public MainWindow()
         {
             InitializeComponent();
+            users = new List<User>();
+            users.Add(new User("admin", "12345"));
         }
 
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
         {
 			this.Close();
+        }
+
+        List<User> users;
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            User user = new User(txtlogin.Text.ToString(), txtpassword.Password.ToString());
+            if (user.Equals(users.ElementAt(0)))
+            {
+                MessageBox.Show("Great");
+            }
         }
     }
 }

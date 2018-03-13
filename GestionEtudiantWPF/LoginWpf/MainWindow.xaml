@@ -114,10 +114,10 @@
 
         <StackPanel x:Name="stackPanel" HorizontalAlignment="Left" Height="188" Margin="70,102,0,0" Grid.Row="1" VerticalAlignment="Top" Width="241" Orientation="Vertical">
             <TextBlock HorizontalAlignment="Left" Margin="10 10 0 0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Foreground="White"/>
-            <TextBox  Height="23"  Grid.Row="1" Margin="10 0 10 10" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="White"/>
+            <TextBox x:Name="txtlogin"  Height="23"  Grid.Row="1" Margin="10 0 10 10" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Foreground="White"/>
             <TextBlock HorizontalAlignment="Left" Margin="10 10 0 0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="White"/>
-            <PasswordBox HorizontalAlignment="Left" Height="23" Margin="10 0 10 0"  Grid.Row="1"   VerticalAlignment="Top" Width="231" Foreground="White"/>
-            <Button Content="Login"  Margin="10,20,10,0" VerticalAlignment="Top" Background="#FF31B3E4"/>
+            <PasswordBox x:Name="txtpassword" HorizontalAlignment="Left" Height="23" Margin="10 0 10 0"  Grid.Row="1"   VerticalAlignment="Top" Width="231" Foreground="White"/>
+            <Button x:Name="loginBtn" Content="Login"  Margin="10,20,10,0" VerticalAlignment="Top" Background="#FF31B3E4" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Window>
